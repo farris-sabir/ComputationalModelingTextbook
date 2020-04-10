@@ -1,0 +1,25 @@
+#All films are critics’ choice
+
+SELECT display_title FROM qtm-250.movies_project.Movies WHERE mpaa_rating='R';
+
+#719 movies rated R
+
+SELECT display_title FROM qtm-250.movies_project.Movies WHERE mpaa_rating='NC-17';
+
+#3 movies rated NC-17
+
+SELECT display_title FROM qtm-250.movies_project.Movies WHERE mpaa_rating='PG-13';
+
+#284 movies rated PG-13
+
+SELECT display_title FROM qtm-250.movies_project.Movies WHERE mpaa_rating='G';
+
+#30 movies rated G
+
+SELECT display_title FROM qtm-250.movies_project.Movies WHERE mpaa_rating='Not Rated';
+
+#373 movies rated Not Rated
+
+#total = 1,409
+
+#a bunch of movies with blank mpaa ratings, not included in ratings system
